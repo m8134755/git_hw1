@@ -20,7 +20,9 @@ body{
 	width: 960px;
 	margin: 0 auto;
 	background-color: lightblue;
-	border: 2px solid blue;
+	border-left: 2px solid skyblue;
+	border-right: 2px solid skyblue;
+	border-bottom: 2px solid skyblue;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;	
 }
