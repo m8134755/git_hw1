@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>MJY's survey</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css"/>
+</head>
+<body>
+	<div class="title">
+		<h1>Survey</h1>
+	</div>
+	<div id="survey">
+	<form>
+		<h4>1. 당신의 성별은 무엇입니까?</h4>
+		<div class="choices">
+		<input type="radio" name="1" value="1">1) 남성 <br>
+		<input type="radio" name="1" value="2">2) 여성
+		</div>
+		<h4>2. 홈페이지에서 인상 깊었거나 기억에 남는 사항이 있습니까?</h4>
+		<div class="choices">
+		<input type="radio" name="1" value="1">1) 예 <br>
+		<input type="radio" name="1" value="2">2) 아니오
+		</div>
+		<h6>2-1 (1번을 선택한 경우) 인상 깊었거나 기억에 남는 사항은 무엇입니까?</h6>
+		<div class="choices">
+		<input type="checkbox" name="2" value="1">1) 고양이 사진 <br>
+		<input type="checkbox" name="2" value="2">2) 프로필 사진 <br>
+		<input type="checkbox" name="2" value="3">3) 이름 <br>
+		<input type="checkbox" name="2" value="4">4) 생년월일 <br>
+		<input type="checkbox" name="2" value="5">5) 거주지역 <br>
+		<input type="checkbox" name="2" value="6">6) 좋아하는(관심있는) 물건 또는 연예인 순위 <br>
+		<input type="checkbox" name="2" value="7">7) 가족관계 <br>
+		<input type="checkbox" name="2" value="8">8) 인생의 가치관 <br>
+		<input type="checkbox" name="2" value="9">9) 기타:<textarea cols="20" rows="1" name=""></textarea>
+		</div>
+		<h4>3.명지윤에 대한 첫인상은 어떠합니까?</h4>
+		<div class="choices">
+			<table>
+				<tr>
+					<td></td>
+					<td>1) 그렇다</td>
+					<td>2) 보통이다</td>
+					<td>3) 아니다</td>
+				</tr>
+				<tr>
+					<th>3-1 잘 생긴 것 같다.</th>
+					<td><input type="radio" name="3-1" value="1"/></td>
+					<td><input type="radio" name="3-1" value="2"/></td>
+					<td><input type="radio" name="3-1" value="3"/></td>
+				</tr>
+				<tr>
+					<th>3-2 성실 한 것 같다.</th>
+					<td><input type="radio" name="3-2" value="1"/></td>
+					<td><input type="radio" name="3-2" value="2"/></td>
+					<td><input type="radio" name="3-2" value="3"/></td>
+				</tr>
+				<tr>
+					<th>3-3 착한 것 같다.</th>
+					<td><input type="radio" name="3-3" value="1"/></td>
+					<td><input type="radio" name="3-3" value="2"/></td>
+					<td><input type="radio" name="3-3" value="3"/></td>
+				</tr>
+				<tr>
+					<th>3-4 공부를 잘 할 것 같다.</th>
+					<td><input type="radio" name="3-4" value="1"/></td>
+					<td><input type="radio" name="3-4" value="2"/></td>
+					<td><input type="radio" name="3-4" value="3"/></td>
+				</tr>
+				<tr>
+					<th>3-5 돈이 많을 것 같다.</th>
+					<td><input type="radio" name="3-5" value="1"/></td>
+					<td><input type="radio" name="3-5" value="2"/></td>
+					<td><input type="radio" name="3-5" value="3"/></td>
+				</tr>
+				<tr>
+					<th>3-6 기타의견</th>
+					<td colspan="3"><textarea cols="40" rows="3" name="3-6">의견이 있으면 적어주세요.</textarea></td>
+				</tr>
+			</table>
+		</div>
+		<h4>4. 홈페이지에 대한 평가</h4>
+		<div class="choices">
+		<input type="radio" name="4" value="1">1) 매우 잘 만들었다. <br>
+		<input type="radio" name="4" value="2">2) 잘 만든 편이다. <br>
+		<input type="radio" name="4" value="3">3) 그럭저럭 보통이다. <br>
+		<input type="radio" name="4" value="4">4) 2% 부족하다. <br>
+		<input type="radio" name="4" value="5">5) 형편없다. <br>
+		<input type="checkbox" name="4" value="6">6) 기타의견:<textarea cols="20" rows="1" name="4"></textarea>
+		</div>
+		<h4>5.명지윤에게 하고 싶은 말</h4>
+		<textarea cols="50" rows="5" name="5">텍스트를 입력하세요.</textarea> <br>
+		<input type="submit"/>
+	</form>
+	</div>
+	<div class="pagination">
+	<a href="index.html">Home</a>
+	<a href="index2.html">Profile</a>
+	<a href="index3.html" class = "selected">Survey</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+html{ 
+	background-color: #888;
+	font-family: "MD개성체";
+	text-align: center;
+	font-size: 15pt;
+}
+body{
+	margin-bottom: 50px;
+}
+.title {
+	width: 500px;
+	margin: 0 auto;
+	background-color: darkblue;
+	border: 2px solid blue;
+	color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#profile{
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: lightblue;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#profile table,#profile td,#profile th{ 
+	border: 5px solid purple;
+	margin: 0 auto;
+	border-collapse: collapse;
+	font-size: 15pt;
+}
+#profile th{
+	color: brown;
+}
+#profile td{
+	color: blue;
+}
+#profile .list{
+	text-align: left;
+}
+#survey{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 2px solid skyblue;
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	color: black;
+	text-align: left;
+	background-color: lightblue;
+}
+#survey div.choices{
+	font-size: 10pt;
+	color: darkblue;
+}
+#survey table, #survey th, #survey td{
+	border: 2px solid purple;
+	margin: 0 auto;
+	border-collapse: collapse;
+	font-size: 10pt;
+}
+#survey th{
+	text-align: left;
+}
+#survey td{
+	text-align: center;
+}
+.pagination{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	display: inline-block;
+	background-color: lightgreen;
+	color: red;
+	width: 100%;
+
+}
+.pagination a{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pagination a:hover{
+	background-color: #ffffff;
+}
+.pagination a:visited{
+	color: red;
+}
+.pagination a:active{
+	background-color: #000000;
+}
+.pagination a.selected{
+	background-color: green;
+}
+
