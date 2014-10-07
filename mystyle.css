@@ -5,6 +5,7 @@ html{
 	font-size: 15pt;
 }
 body{
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 .title {
