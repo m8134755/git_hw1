@@ -24,13 +24,9 @@ body{
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;	
 }
-#home {
+#home, #profile{
  	padding-top: 20px;
  	padding-bottom: 20px;
-}
-#profile {
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 #profile table{
 	width: 500px;
@@ -88,30 +84,31 @@ body{
 #survey td{
 	text-align: center;
 }
-.pagination{
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
-	display: inline-block;
-	background-color: lightgreen;
-	color: red;
+.pagination {
+	margin: 0 auto;
 	width: 100%;
-
+	height: 30px;
 }
-.pagination a{
-	padding-left: 10px;
-	padding-right: 10px;
+.pagination ul{
+	margin: 0 auto;
 }
-.pagination a:hover{
-	background-color: #ffffff;
+.pagination ul li{
+	float: left;
+	list-style-type: none;
 }
-.pagination a:visited{
-	color: red;
+.pagination ul li a{
+	color: #fff;
+	background-color: #4682b4;
+	display: block;
+	width: 293px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px/30px Tahoma;  
+	margin-right: 1px;
 }
-.pagination a:active{
-	background-color: #000000;
+.pagination ul li a.selected{
+	background-color: #94c713;
 }
-.pagination a.selected{
-	background-color: green;
+.pagination ul li a:hover{
+	background-color: #709647;
 }
-
