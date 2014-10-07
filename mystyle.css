@@ -28,6 +28,10 @@ body{
  	padding-top: 20px;
  	padding-bottom: 20px;
 }
+#profile {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 #profile table,#profile td,#profile th{ 
 	border: 5px solid purple;
 	margin: 0 auto;
